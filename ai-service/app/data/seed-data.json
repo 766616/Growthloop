@@ -1,0 +1,1435 @@
+{
+ "skills": [
+  {
+   "name": "Programming Basics",
+   "category": "Foundations",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 20,
+   "prerequisites": [],
+   "description": "Variables, loops, conditionals, functions and problem solving in any programming language.",
+   "practice_task": "Solve 15 beginner problems on loops, conditionals and functions."
+  },
+  {
+   "name": "Java",
+   "category": "Programming",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 40,
+   "prerequisites": [
+    "Programming Basics"
+   ],
+   "description": "Core Java language: syntax, types, collections, exceptions and the JVM.",
+   "practice_task": "Build a console library manager using ArrayList and HashMap."
+  },
+  {
+   "name": "Python",
+   "category": "Programming",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 30,
+   "prerequisites": [
+    "Programming Basics"
+   ],
+   "description": "General-purpose programming language: syntax, data types, functions, modules and scripting.",
+   "practice_task": "Write a script that reads a CSV file and prints summary statistics."
+  },
+  {
+   "name": "OOP",
+   "category": "Programming",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 25,
+   "prerequisites": [
+    "Programming Basics"
+   ],
+   "description": "Object oriented programming: classes, objects, inheritance, polymorphism, encapsulation, interfaces.",
+   "practice_task": "Model a bank system with Account, SavingsAccount and Transaction classes."
+  },
+  {
+   "name": "Data Structures & Algorithms",
+   "category": "Foundations",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 60,
+   "prerequisites": [
+    "Programming Basics"
+   ],
+   "description": "Arrays, linked lists, stacks, queues, trees, graphs, sorting, searching and complexity analysis.",
+   "practice_task": "Implement a stack, a queue and binary search, then solve 10 array problems."
+  },
+  {
+   "name": "SQL",
+   "category": "Databases",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 25,
+   "prerequisites": [
+    "Programming Basics"
+   ],
+   "description": "Structured Query Language for relational databases: SELECT, JOIN, GROUP BY, subqueries, indexes.",
+   "practice_task": "Design a student table set and write 15 queries including JOINs and GROUP BY."
+  },
+  {
+   "name": "Database Design",
+   "category": "Databases",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 20,
+   "prerequisites": [
+    "SQL"
+   ],
+   "description": "Relational database design: normalization, keys, relationships, ER diagrams, indexing.",
+   "practice_task": "Draw an ER diagram for a college portal and normalise it to 3NF."
+  },
+  {
+   "name": "JDBC",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 15,
+   "prerequisites": [
+    "Java",
+    "SQL"
+   ],
+   "description": "Java Database Connectivity: connecting Java applications to relational databases with prepared statements.",
+   "practice_task": "Write a Java program that performs CRUD on a MySQL table with PreparedStatement."
+  },
+  {
+   "name": "Spring Boot",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 50,
+   "prerequisites": [
+    "Java",
+    "OOP",
+    "JDBC"
+   ],
+   "description": "Spring Boot framework for Java backend services: dependency injection, Spring Data JPA, configuration.",
+   "practice_task": "Create a Spring Boot app with one JPA entity and CRUD repository."
+  },
+  {
+   "name": "HTTP & Web Basics",
+   "category": "Web",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 10,
+   "prerequisites": [],
+   "description": "How the web works: HTTP methods, status codes, headers, JSON, client-server model.",
+   "practice_task": "Use curl or Postman to call a public API and explain each status code you get."
+  },
+  {
+   "name": "REST APIs",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 25,
+   "prerequisites": [
+    "HTTP & Web Basics"
+   ],
+   "description": "Designing and building RESTful web APIs: resources, HTTP verbs, validation, status codes, versioning.",
+   "practice_task": "Design and implement a REST API for a to-do list with proper status codes."
+  },
+  {
+   "name": "Git",
+   "category": "Tools",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 10,
+   "prerequisites": [],
+   "description": "Version control with Git and GitHub: commits, branches, merges, pull requests.",
+   "practice_task": "Create a repo, work on two branches, open a pull request and resolve a merge conflict."
+  },
+  {
+   "name": "Testing (JUnit)",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 20,
+   "prerequisites": [
+    "Java"
+   ],
+   "description": "Unit and integration testing in Java with JUnit and Mockito.",
+   "practice_task": "Write JUnit tests with at least 80% coverage for a small service class."
+  },
+  {
+   "name": "Backend Project",
+   "category": "Projects",
+   "difficulty": "ADVANCED",
+   "estimated_hours": 40,
+   "prerequisites": [
+    "Spring Boot",
+    "REST APIs",
+    "Git",
+    "Testing (JUnit)"
+   ],
+   "description": "End-to-end backend project combining REST APIs, database, security and tests.",
+   "practice_task": "Build and deploy a secured REST API (e.g. library or event booking) with tests."
+  },
+  {
+   "name": "HTML",
+   "category": "Web",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 10,
+   "prerequisites": [],
+   "description": "HyperText Markup Language: semantic page structure, forms, accessibility.",
+   "practice_task": "Build a semantic, accessible personal profile page."
+  },
+  {
+   "name": "CSS",
+   "category": "Web",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 20,
+   "prerequisites": [
+    "HTML"
+   ],
+   "description": "Cascading Style Sheets: layout, flexbox, grid, responsive design.",
+   "practice_task": "Recreate a landing page layout using flexbox and grid, responsive to mobile."
+  },
+  {
+   "name": "JavaScript",
+   "category": "Web",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 35,
+   "prerequisites": [
+    "Programming Basics",
+    "HTML"
+   ],
+   "description": "JavaScript language for the web: DOM, events, fetch, promises, ES modules.",
+   "practice_task": "Build a to-do app with add, delete and filter using plain JavaScript."
+  },
+  {
+   "name": "React",
+   "category": "Web",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 40,
+   "prerequisites": [
+    "JavaScript",
+    "CSS"
+   ],
+   "description": "React library for building user interfaces: components, props, state, hooks, routing.",
+   "practice_task": "Build a React app that fetches and filters data from a public API."
+  },
+  {
+   "name": "Node.js",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 30,
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "description": "Server-side JavaScript runtime with Express for building APIs.",
+   "practice_task": "Build an Express API with three routes and input validation."
+  },
+  {
+   "name": "TypeScript",
+   "category": "Web",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 20,
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "description": "Typed superset of JavaScript: types, interfaces, generics.",
+   "practice_task": "Convert a small JavaScript project to TypeScript with strict mode on."
+  },
+  {
+   "name": "Pandas & NumPy",
+   "category": "Data",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 25,
+   "prerequisites": [
+    "Python"
+   ],
+   "description": "Data manipulation and numerical computing in Python with pandas DataFrames and NumPy arrays.",
+   "practice_task": "Clean and analyse a public dataset; produce 5 insights with charts."
+  },
+  {
+   "name": "Statistics",
+   "category": "Data",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 30,
+   "prerequisites": [],
+   "description": "Descriptive and inferential statistics: distributions, hypothesis testing, correlation, regression.",
+   "practice_task": "Compute descriptive statistics and a correlation analysis on a dataset by hand and in code."
+  },
+  {
+   "name": "Machine Learning",
+   "category": "Data",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 60,
+   "prerequisites": [
+    "Pandas & NumPy",
+    "Statistics"
+   ],
+   "description": "Supervised and unsupervised learning with scikit-learn: regression, classification, clustering, evaluation.",
+   "practice_task": "Train and evaluate a classification model with a proper train/test split."
+  },
+  {
+   "name": "Deep Learning",
+   "category": "Data",
+   "difficulty": "ADVANCED",
+   "estimated_hours": 60,
+   "prerequisites": [
+    "Machine Learning"
+   ],
+   "description": "Neural networks, CNNs, RNNs, transformers with PyTorch or TensorFlow.",
+   "practice_task": "Train a small image classifier and report validation accuracy."
+  },
+  {
+   "name": "FastAPI",
+   "category": "Backend",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 15,
+   "prerequisites": [
+    "Python",
+    "REST APIs"
+   ],
+   "description": "Python web framework for building fast, typed REST APIs.",
+   "practice_task": "Expose a trained model as a FastAPI endpoint with request validation."
+  },
+  {
+   "name": "Linux Basics",
+   "category": "Tools",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 15,
+   "prerequisites": [],
+   "description": "Linux command line: files, permissions, processes, shell scripting.",
+   "practice_task": "Write a shell script that backs up a folder and logs the result."
+  },
+  {
+   "name": "Docker",
+   "category": "DevOps",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 20,
+   "prerequisites": [
+    "Linux Basics",
+    "Git"
+   ],
+   "description": "Containerisation with Docker: images, containers, Dockerfile, docker compose.",
+   "practice_task": "Containerise a small web app and run it with docker compose alongside a database."
+  },
+  {
+   "name": "Cloud Fundamentals (AWS)",
+   "category": "DevOps",
+   "difficulty": "INTERMEDIATE",
+   "estimated_hours": 30,
+   "prerequisites": [
+    "Linux Basics"
+   ],
+   "description": "Core cloud concepts and AWS services: EC2, S3, IAM, VPC, RDS.",
+   "practice_task": "Deploy a static site to S3 and a small app to EC2 using least-privilege IAM."
+  },
+  {
+   "name": "Communication Skills",
+   "category": "Soft Skills",
+   "difficulty": "BEGINNER",
+   "estimated_hours": 15,
+   "prerequisites": [],
+   "description": "Technical communication, presentations, writing documentation, teamwork.",
+   "practice_task": "Present a 5-minute explanation of a project you built to a peer."
+  }
+ ],
+ "career_goals": [
+  {
+   "name": "Java Backend Developer",
+   "description": "Builds server-side applications and REST APIs with Java and Spring Boot.",
+   "skills": [
+    {
+     "skill": "Java",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "OOP",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "JDBC",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Spring Boot",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "REST APIs",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Git",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Testing (JUnit)",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Database Design",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Backend Project",
+     "importance": 4,
+     "required_level": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "name": "Full Stack Web Developer",
+   "description": "Builds complete web applications: frontend UI, backend APIs and databases.",
+   "skills": [
+    {
+     "skill": "HTML",
+     "importance": 4,
+     "required_level": "ADVANCED"
+    },
+    {
+     "skill": "CSS",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "JavaScript",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "React",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Node.js",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "REST APIs",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Git",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "TypeScript",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "name": "Data Scientist",
+   "description": "Analyses data and builds machine learning models to answer questions and make predictions.",
+   "skills": [
+    {
+     "skill": "Python",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Pandas & NumPy",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Statistics",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Machine Learning",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Deep Learning",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Git",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Communication Skills",
+     "importance": 3,
+     "required_level": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "name": "Python Backend Developer",
+   "description": "Builds APIs and services in Python with FastAPI and relational databases.",
+   "skills": [
+    {
+     "skill": "Python",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "OOP",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "REST APIs",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "FastAPI",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Git",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Docker",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "Database Design",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "name": "Cloud & DevOps Engineer",
+   "description": "Automates, deploys and operates applications on cloud infrastructure.",
+   "skills": [
+    {
+     "skill": "Linux Basics",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Git",
+     "importance": 4,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Docker",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Cloud Fundamentals (AWS)",
+     "importance": 5,
+     "required_level": "INTERMEDIATE"
+    },
+    {
+     "skill": "Python",
+     "importance": 3,
+     "required_level": "BEGINNER"
+    },
+    {
+     "skill": "HTTP & Web Basics",
+     "importance": 3,
+     "required_level": "INTERMEDIATE"
+    }
+   ]
+  }
+ ],
+ "resources": [
+  {
+   "skill": "Java",
+   "title": "Dev.java - Learn Java",
+   "type": "Documentation",
+   "url": "https://dev.java/learn/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 300,
+   "description": "Official learning path for the Java language."
+  },
+  {
+   "skill": "Java",
+   "title": "The Java Tutorials (Oracle)",
+   "type": "Documentation",
+   "url": "https://docs.oracle.com/javase/tutorial/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 600,
+   "description": "Classic tutorial trail covering the language basics and collections."
+  },
+  {
+   "skill": "OOP",
+   "title": "Object-Oriented Programming Concepts",
+   "type": "Article",
+   "url": "https://docs.oracle.com/javase/tutorial/java/concepts/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 90,
+   "description": "Objects, classes, inheritance and interfaces explained."
+  },
+  {
+   "skill": "OOP",
+   "title": "OOP practice: model a bank",
+   "type": "Practice",
+   "url": "https://github.com/topics/object-oriented-programming",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 180,
+   "description": "Browse OOP practice repositories and replicate one design."
+  },
+  {
+   "skill": "SQL",
+   "title": "SQLBolt interactive lessons",
+   "type": "Practice",
+   "url": "https://sqlbolt.com/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 240,
+   "description": "Interactive SQL exercises right in the browser."
+  },
+  {
+   "skill": "SQL",
+   "title": "MySQL Reference - Tutorial",
+   "type": "Documentation",
+   "url": "https://dev.mysql.com/doc/refman/8.0/en/tutorial.html",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 180,
+   "description": "Official MySQL tutorial chapter."
+  },
+  {
+   "skill": "Database Design",
+   "title": "Database normalization basics",
+   "type": "Article",
+   "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 45,
+   "description": "Short explanation of normal forms."
+  },
+  {
+   "skill": "JDBC",
+   "title": "JDBC Basics (Oracle)",
+   "type": "Documentation",
+   "url": "https://docs.oracle.com/javase/tutorial/jdbc/basics/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 180,
+   "description": "Connections, statements and result sets."
+  },
+  {
+   "skill": "Spring Boot",
+   "title": "Spring Guides: Building a RESTful Web Service",
+   "type": "Documentation",
+   "url": "https://spring.io/guides/gs/rest-service",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 60,
+   "description": "Official quick-start guide."
+  },
+  {
+   "skill": "Spring Boot",
+   "title": "Spring Guides: Accessing Data with JPA",
+   "type": "Documentation",
+   "url": "https://spring.io/guides/gs/accessing-data-jpa",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 60,
+   "description": "Persist entities with Spring Data JPA."
+  },
+  {
+   "skill": "Spring Boot",
+   "title": "Build a Spring Boot CRUD project",
+   "type": "Project",
+   "url": "https://start.spring.io/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 600,
+   "description": "Generate a project and build a CRUD service end to end."
+  },
+  {
+   "skill": "REST APIs",
+   "title": "MDN: HTTP overview",
+   "type": "Documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 60,
+   "description": "How HTTP requests and responses work."
+  },
+  {
+   "skill": "REST APIs",
+   "title": "REST API design practice",
+   "type": "Practice",
+   "url": "https://github.com/public-apis/public-apis",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 120,
+   "description": "Study real public APIs and critique their design."
+  },
+  {
+   "skill": "HTTP & Web Basics",
+   "title": "MDN: HTTP response status codes",
+   "type": "Documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 40,
+   "description": "Reference of all status codes."
+  },
+  {
+   "skill": "Git",
+   "title": "Pro Git book",
+   "type": "Documentation",
+   "url": "https://git-scm.com/book/en/v2",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 480,
+   "description": "Free official Git book."
+  },
+  {
+   "skill": "Git",
+   "title": "Learn Git Branching",
+   "type": "Practice",
+   "url": "https://learngitbranching.js.org/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 120,
+   "description": "Visual, interactive branching exercises."
+  },
+  {
+   "skill": "Testing (JUnit)",
+   "title": "JUnit 5 User Guide",
+   "type": "Documentation",
+   "url": "https://junit.org/junit5/docs/current/user-guide/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 180,
+   "description": "Official JUnit 5 guide."
+  },
+  {
+   "skill": "Backend Project",
+   "title": "Spring Guides: Securing a Web Application",
+   "type": "Documentation",
+   "url": "https://spring.io/guides/gs/securing-web",
+   "difficulty": "ADVANCED",
+   "estimated_minutes": 90,
+   "description": "Add security to a Spring application."
+  },
+  {
+   "skill": "HTML",
+   "title": "MDN: HTML basics",
+   "type": "Documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 240,
+   "description": "Structure and semantics of HTML."
+  },
+  {
+   "skill": "CSS",
+   "title": "MDN: CSS layout",
+   "type": "Documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 300,
+   "description": "Flexbox, grid and responsive design."
+  },
+  {
+   "skill": "JavaScript",
+   "title": "MDN: JavaScript guide",
+   "type": "Documentation",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 600,
+   "description": "Complete JavaScript language guide."
+  },
+  {
+   "skill": "React",
+   "title": "React: Quick Start",
+   "type": "Documentation",
+   "url": "https://react.dev/learn",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 240,
+   "description": "Official React tutorial."
+  },
+  {
+   "skill": "Node.js",
+   "title": "Node.js: Introduction",
+   "type": "Documentation",
+   "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 120,
+   "description": "Official Node.js learning pages."
+  },
+  {
+   "skill": "TypeScript",
+   "title": "TypeScript Handbook",
+   "type": "Documentation",
+   "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 300,
+   "description": "Official handbook."
+  },
+  {
+   "skill": "Python",
+   "title": "The Python Tutorial",
+   "type": "Documentation",
+   "url": "https://docs.python.org/3/tutorial/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 480,
+   "description": "Official Python tutorial."
+  },
+  {
+   "skill": "Pandas & NumPy",
+   "title": "pandas: Getting started",
+   "type": "Documentation",
+   "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 180,
+   "description": "Official pandas introduction."
+  },
+  {
+   "skill": "Statistics",
+   "title": "Khan Academy: Statistics and probability",
+   "type": "Course",
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 900,
+   "description": "Free full statistics course."
+  },
+  {
+   "skill": "Machine Learning",
+   "title": "scikit-learn tutorials",
+   "type": "Documentation",
+   "url": "https://scikit-learn.org/stable/tutorial/index.html",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 300,
+   "description": "Official scikit-learn tutorials."
+  },
+  {
+   "skill": "Deep Learning",
+   "title": "PyTorch: Learn the basics",
+   "type": "Documentation",
+   "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+   "difficulty": "ADVANCED",
+   "estimated_minutes": 300,
+   "description": "Official PyTorch beginner series."
+  },
+  {
+   "skill": "FastAPI",
+   "title": "FastAPI Tutorial - User Guide",
+   "type": "Documentation",
+   "url": "https://fastapi.tiangolo.com/tutorial/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 240,
+   "description": "Official FastAPI tutorial."
+  },
+  {
+   "skill": "Linux Basics",
+   "title": "Linux Journey",
+   "type": "Course",
+   "url": "https://linuxjourney.com/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 300,
+   "description": "Free Linux fundamentals course."
+  },
+  {
+   "skill": "Docker",
+   "title": "Docker: Get started",
+   "type": "Documentation",
+   "url": "https://docs.docker.com/get-started/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 180,
+   "description": "Official Docker getting started guide."
+  },
+  {
+   "skill": "Cloud Fundamentals (AWS)",
+   "title": "AWS Skill Builder: Cloud Practitioner Essentials",
+   "type": "Course",
+   "url": "https://explore.skillbuilder.aws/",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 360,
+   "description": "Free AWS fundamentals course."
+  },
+  {
+   "skill": "Programming Basics",
+   "title": "CS50x (Harvard, free)",
+   "type": "Course",
+   "url": "https://cs50.harvard.edu/x/",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 1200,
+   "description": "Free introduction to computer science."
+  },
+  {
+   "skill": "Data Structures & Algorithms",
+   "title": "VisuAlgo",
+   "type": "Practice",
+   "url": "https://visualgo.net/en",
+   "difficulty": "INTERMEDIATE",
+   "estimated_minutes": 300,
+   "description": "Visualise data structures and algorithms."
+  },
+  {
+   "skill": "Communication Skills",
+   "title": "Google Technical Writing One",
+   "type": "Course",
+   "url": "https://developers.google.com/tech-writing/one",
+   "difficulty": "BEGINNER",
+   "estimated_minutes": 180,
+   "description": "Free technical writing course."
+  }
+ ],
+ "admin": {
+  "full_name": "Platform Admin",
+  "email": "admin@growthloop.dev"
+ },
+ "teachers": [
+  {
+   "full_name": "Dr. Meera Iyer",
+   "email": "meera.iyer@growthloop.dev",
+   "department": "Computer Engineering",
+   "designation": "Associate Professor",
+   "is_mentor": true,
+   "availability": [
+    "Mon evening",
+    "Wed evening",
+    "Sat morning"
+   ],
+   "expertise": [
+    "Java",
+    "Spring Boot",
+    "SQL",
+    "JDBC",
+    "OOP",
+    "REST APIs",
+    "Testing (JUnit)"
+   ]
+  },
+  {
+   "full_name": "Prof. Rahul Verma",
+   "email": "rahul.verma@growthloop.dev",
+   "department": "Information Technology",
+   "designation": "Assistant Professor",
+   "is_mentor": true,
+   "availability": [
+    "Tue evening",
+    "Thu evening",
+    "Sat afternoon"
+   ],
+   "expertise": [
+    "Python",
+    "Machine Learning",
+    "Statistics",
+    "Pandas & NumPy",
+    "SQL",
+    "FastAPI"
+   ]
+  },
+  {
+   "full_name": "Ms. Sana Qureshi",
+   "email": "sana.qureshi@growthloop.dev",
+   "department": "Computer Engineering",
+   "designation": "Lecturer",
+   "is_mentor": true,
+   "availability": [
+    "Mon evening",
+    "Fri evening",
+    "Sun morning"
+   ],
+   "expertise": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Git",
+    "Docker"
+   ]
+  }
+ ],
+ "students": [
+  {
+   "full_name": "Aarav Shah",
+   "email": "aarav.shah@growthloop.dev",
+   "roll": "GL24001",
+   "branch": "Computer Engineering",
+   "semester": 5,
+   "goal": "Java Backend Developer",
+   "perf": 0.78,
+   "teacher": "meera.iyer@growthloop.dev",
+   "interests": [
+    "Backend Development",
+    "System Design"
+   ],
+   "availability": [
+    "Mon evening",
+    "Sat morning"
+   ],
+   "skills": [
+    {
+     "skill": "Java",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "OOP",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Git",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "JDBC",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Diya Patel",
+   "email": "diya.patel@growthloop.dev",
+   "roll": "GL24002",
+   "branch": "Information Technology",
+   "semester": 5,
+   "goal": "Data Scientist",
+   "perf": 0.86,
+   "teacher": "rahul.verma@growthloop.dev",
+   "interests": [
+    "AI",
+    "Data Visualisation"
+   ],
+   "availability": [
+    "Tue evening",
+    "Sat afternoon"
+   ],
+   "skills": [
+    {
+     "skill": "Python",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Pandas & NumPy",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Statistics",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Java",
+     "proficiency": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "full_name": "Kabir Nair",
+   "email": "kabir.nair@growthloop.dev",
+   "roll": "GL24003",
+   "branch": "Computer Engineering",
+   "semester": 3,
+   "goal": "Full Stack Web Developer",
+   "perf": 0.52,
+   "teacher": "sana.qureshi@growthloop.dev",
+   "interests": [
+    "Web Development",
+    "UI Design"
+   ],
+   "availability": [
+    "Mon evening",
+    "Fri evening"
+   ],
+   "skills": [
+    {
+     "skill": "HTML",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "CSS",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "JavaScript",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Git",
+     "proficiency": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "full_name": "Isha Kulkarni",
+   "email": "isha.kulkarni@growthloop.dev",
+   "roll": "GL24004",
+   "branch": "Electronics & Telecommunication",
+   "semester": 5,
+   "goal": "Java Backend Developer",
+   "perf": 0.41,
+   "teacher": "meera.iyer@growthloop.dev",
+   "interests": [
+    "Backend Development",
+    "Cloud"
+   ],
+   "availability": [
+    "Wed evening",
+    "Sat morning"
+   ],
+   "skills": [
+    {
+     "skill": "Java",
+     "proficiency": "BEGINNER"
+    },
+    {
+     "skill": "Python",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "HTML",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Rohan Mehta",
+   "email": "rohan.mehta@growthloop.dev",
+   "roll": "GL24005",
+   "branch": "Computer Engineering",
+   "semester": 7,
+   "goal": "Cloud & DevOps Engineer",
+   "perf": 0.69,
+   "teacher": "sana.qureshi@growthloop.dev",
+   "interests": [
+    "Cloud",
+    "Automation"
+   ],
+   "availability": [
+    "Fri evening",
+    "Sun morning"
+   ],
+   "skills": [
+    {
+     "skill": "Linux Basics",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Git",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Docker",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Python",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Ananya Rao",
+   "email": "ananya.rao@growthloop.dev",
+   "roll": "GL24006",
+   "branch": "Information Technology",
+   "semester": 3,
+   "goal": "Python Backend Developer",
+   "perf": 0.62,
+   "teacher": "rahul.verma@growthloop.dev",
+   "interests": [
+    "APIs",
+    "AI"
+   ],
+   "availability": [
+    "Tue evening",
+    "Thu evening"
+   ],
+   "skills": [
+    {
+     "skill": "Python",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "BEGINNER"
+    },
+    {
+     "skill": "HTML",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Vivaan Joshi",
+   "email": "vivaan.joshi@growthloop.dev",
+   "roll": "GL24007",
+   "branch": "Computer Engineering",
+   "semester": 5,
+   "goal": "Full Stack Web Developer",
+   "perf": 0.9,
+   "teacher": "sana.qureshi@growthloop.dev",
+   "interests": [
+    "Web Development",
+    "Open Source"
+   ],
+   "availability": [
+    "Mon evening",
+    "Sun morning"
+   ],
+   "skills": [
+    {
+     "skill": "JavaScript",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "React",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Node.js",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "HTML",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "CSS",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Git",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Sara Fernandes",
+   "email": "sara.fernandes@growthloop.dev",
+   "roll": "GL24008",
+   "branch": "Information Technology",
+   "semester": 7,
+   "goal": "Data Scientist",
+   "perf": 0.47,
+   "teacher": "rahul.verma@growthloop.dev",
+   "interests": [
+    "AI",
+    "Healthcare Analytics"
+   ],
+   "availability": [
+    "Thu evening",
+    "Sat afternoon"
+   ],
+   "skills": [
+    {
+     "skill": "Python",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Statistics",
+     "proficiency": "BEGINNER"
+    },
+    {
+     "skill": "Java",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "BEGINNER"
+    }
+   ]
+  },
+  {
+   "full_name": "Arjun Desai",
+   "email": "arjun.desai@growthloop.dev",
+   "roll": "GL24009",
+   "branch": "Computer Engineering",
+   "semester": 5,
+   "goal": "Java Backend Developer",
+   "perf": 0.73,
+   "teacher": "meera.iyer@growthloop.dev",
+   "interests": [
+    "Backend Development",
+    "Competitive Programming"
+   ],
+   "availability": [
+    "Wed evening",
+    "Sat morning"
+   ],
+   "skills": [
+    {
+     "skill": "Java",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Data Structures & Algorithms",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Python",
+     "proficiency": "BEGINNER"
+    },
+    {
+     "skill": "React",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "JavaScript",
+     "proficiency": "INTERMEDIATE"
+    }
+   ]
+  },
+  {
+   "full_name": "Tanvi Gupta",
+   "email": "tanvi.gupta@growthloop.dev",
+   "roll": "GL24010",
+   "branch": "Electronics & Telecommunication",
+   "semester": 3,
+   "goal": "Cloud & DevOps Engineer",
+   "perf": 0.58,
+   "teacher": "sana.qureshi@growthloop.dev",
+   "interests": [
+    "Cloud",
+    "Networking"
+   ],
+   "availability": [
+    "Fri evening",
+    "Sun morning"
+   ],
+   "skills": [
+    {
+     "skill": "Linux Basics",
+     "proficiency": "INTERMEDIATE"
+    },
+    {
+     "skill": "Python",
+     "proficiency": "BEGINNER"
+    },
+    {
+     "skill": "SQL",
+     "proficiency": "ADVANCED"
+    },
+    {
+     "skill": "Java",
+     "proficiency": "ADVANCED"
+    }
+   ]
+  }
+ ],
+ "sessions": [
+  {
+   "requester": "isha.kulkarni@growthloop.dev",
+   "mentor": "meera.iyer@growthloop.dev",
+   "topic": "Getting started with SQL joins",
+   "skill": "SQL",
+   "days_offset": -12,
+   "time": "18:00",
+   "status": "COMPLETED",
+   "notes": "Covered INNER and LEFT JOIN with examples.",
+   "feedback": [
+    {
+     "by": "isha.kulkarni@growthloop.dev",
+     "rating": 5,
+     "helpfulness": 5,
+     "comment": "Very clear explanations, joins finally make sense.",
+     "topics": "INNER JOIN, LEFT JOIN",
+     "progress": "Can now write basic joins"
+    },
+    {
+     "by": "meera.iyer@growthloop.dev",
+     "rating": 4,
+     "helpfulness": 4,
+     "comment": "Engaged and asked good questions. Needs more practice.",
+     "topics": "INNER JOIN, LEFT JOIN",
+     "progress": "Beginner level SQL"
+    }
+   ]
+  },
+  {
+   "requester": "kabir.nair@growthloop.dev",
+   "mentor": "vivaan.joshi@growthloop.dev",
+   "topic": "React components and props",
+   "skill": "React",
+   "days_offset": -5,
+   "time": "19:00",
+   "status": "COMPLETED",
+   "notes": "Peer session - built a small component tree.",
+   "feedback": [
+    {
+     "by": "kabir.nair@growthloop.dev",
+     "rating": 4,
+     "helpfulness": 5,
+     "comment": "Vivaan explained hooks really well.",
+     "topics": "Components, props, useState",
+     "progress": "Built first React component"
+    }
+   ]
+  },
+  {
+   "requester": "sara.fernandes@growthloop.dev",
+   "mentor": "rahul.verma@growthloop.dev",
+   "topic": "Hypothesis testing basics",
+   "skill": "Statistics",
+   "days_offset": 3,
+   "time": "17:30",
+   "status": "SCHEDULED",
+   "notes": "Bring the healthcare dataset.",
+   "feedback": []
+  },
+  {
+   "requester": "ananya.rao@growthloop.dev",
+   "mentor": "diya.patel@growthloop.dev",
+   "topic": "Writing better SQL queries",
+   "skill": "SQL",
+   "days_offset": 6,
+   "time": "18:30",
+   "status": "REQUESTED",
+   "notes": "",
+   "feedback": []
+  },
+  {
+   "requester": "arjun.desai@growthloop.dev",
+   "mentor": "aarav.shah@growthloop.dev",
+   "topic": "JDBC and connection handling",
+   "skill": "JDBC",
+   "days_offset": 4,
+   "time": "19:00",
+   "status": "ACCEPTED",
+   "notes": "",
+   "feedback": []
+  }
+ ],
+ "subjects": {
+  "Computer Engineering": [
+   "Data Structures",
+   "Database Management Systems",
+   "Object Oriented Programming with Java",
+   "Operating Systems",
+   "Computer Networks"
+  ],
+  "Information Technology": [
+   "Data Structures",
+   "Database Management Systems",
+   "Python Programming",
+   "Probability & Statistics",
+   "Web Technologies"
+  ],
+  "Electronics & Telecommunication": [
+   "Digital Electronics",
+   "Microcontrollers",
+   "Signals & Systems",
+   "Java Programming",
+   "Communication Engineering"
+  ]
+ }
+}

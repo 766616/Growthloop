@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:growthloop;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+app:
+  jwt:
+    secret: test-secret-test-secret-test-secret-0123456789
+    expiration-minutes: 60
+  cors:
+    allowed-origins: http://localhost:5173
+  ai:
+    base-url: http://localhost:65535
+    api-key: ""
+    timeout-ms: 500
+  seed:
+    enabled: true
+    demo-password-admin: Admin@123
+    demo-password-teacher: Teacher@123
+    demo-password-student: Student@123

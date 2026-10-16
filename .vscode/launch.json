@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Backend (Spring Boot)",
+      "request": "launch",
+      "mainClass": "com.growthloop.GrowthLoopApplication",
+      "projectName": "growthloop-backend",
+      "cwd": "${workspaceFolder}/backend",
+      "envFile": "${workspaceFolder}/backend/.env"
+    },
+    {
+      "type": "debugpy",
+      "name": "AI service (FastAPI)",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--port", "8000", "--reload"],
+      "cwd": "${workspaceFolder}/ai-service",
+      "envFile": "${workspaceFolder}/ai-service/.env"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Frontend (Vite)",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/frontend"
+    }
+  ]
+}

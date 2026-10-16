@@ -1,0 +1,7 @@
+student_id,subject,marks,max_marks,attendance,assignment_score,semester,academic_year,assignment_status
+GL24001,Operating Systems,71,100,86,78,5,2025-26,SUBMITTED
+GL24002,Machine Learning,64,100,79,70,5,2025-26,SUBMITTED
+GL24004,Computer Networks,38,100,62,40,5,2025-26,PENDING
+GL24007,Software Engineering,55,100,74,60,5,2025-26,LATE
+GL99999,Maths,50,100,80,70,5,2025-26,SUBMITTED
+GL24003,Compiler Design,112,100,80,70,5,2025-26,SUBMITTED
